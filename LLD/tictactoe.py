@@ -83,8 +83,7 @@ class Game:
     
 
 mike = Player("Big mike", "x")
-musk = Player("Elon Musk", "o")
+musk = Player("Little mike", "o")
 board = Board(3)
 game = Game(mike, musk, board)
-
 game.playGame()
